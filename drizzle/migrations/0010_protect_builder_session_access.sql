@@ -1,0 +1,2 @@
+ALTER TABLE public.builder_sessions ADD COLUMN IF NOT EXISTS access_token_hash text;
+COMMENT ON COLUMN public.builder_sessions.access_token_hash IS 'SHA256 of a random per-session browser capability stored only in an HttpOnly cookie; never returned by public session reads.';

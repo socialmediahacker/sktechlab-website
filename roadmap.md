@@ -1,0 +1,13 @@
+# Site administration upgrade
+- [x] Diversify catalogue previews and new-site presentation with light/dark themes, layouts and category photo rotations; seven restaurant demos verified on mobile, saved sites untouched.
+- [x] Add a scoped colourful shop workspace, sliding tabs, inventory filters and customer view; desktop/mobile controls verified in an isolated empty-state preview, not authenticated data.
+- [x] Review the supplied reel caption and apply its contrasting-accent colour direction.
+- [x] Replace customer editor entry points with site administration; main-admin save/read-back and legacy redirect verified.
+- [x] Support account setup during creation; reuse existing accounts and route dashboard template creation through the builder.
+- [x] Group website plans into editable Silver, Gold and Platinum tiers while preserving plan IDs.
+- [x] Follow gateway switches; add server-verified Razorpay checkout and manual builder payment review.
+- [x] Improve category image fallbacks and mobile live-demo sliding without homepage redesign; track movement verified.
+- [x] Run seven rule tests; verify site save/read-back and layout at mobile/desktop sizes with no runtime errors.
+- [ ] Verify real payment end-to-end — blocked by disabled gateways and missing real Razorpay keys.
+- [ ] Verify customer-owned site and shop data flow — blocked: no injected session; requesting user's email has no matching app account. Requires preview sign-in as an authorized site owner.
+- [ ] Listing photo upload + AI background/lighting cleanup (showroom shots)

@@ -1,0 +1,1 @@
+ALTER TABLE public.site_settings ADD COLUMN IF NOT EXISTS hero_story_images jsonb NOT NULL DEFAULT '[]'::jsonb;

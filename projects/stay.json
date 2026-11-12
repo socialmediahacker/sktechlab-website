@@ -1,0 +1,132 @@
+{
+  "format": "sktechlab-project-v1",
+  "name": "The Quiet Stay",
+  "exportedAt": "2026-11-11T17:08:56.438Z",
+  "content": {
+    "presentation": "preserve",
+    "archetype": "hotel",
+    "brand": {
+      "name": "The Quiet Stay",
+      "tagline": "Go somewhere. Feel at home.",
+      "primary": "#a46c35",
+      "secondary": "#272018",
+      "accent": "#e7d6b5",
+      "layout": "cinematic",
+      "theme": "dark",
+      "font": "luxe",
+      "nav": "minimal",
+      "density": "airy",
+      "corner": "soft",
+      "motion": "cinematic",
+      "direction": "Signature collection"
+    },
+    "sections": [
+      {
+        "type": "hero3d",
+        "headline": "A slower pace. A more memorable stay.",
+        "sub": "Beautifully considered rooms, warm welcomes and the freedom to unwind. Your next escape begins here.",
+        "cta": "Let's talk",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85",
+        "bullets": [
+          "Made for you",
+          "Thoughtful details",
+          "Personal attention"
+        ],
+        "link": "contact"
+      },
+      {
+        "type": "features",
+        "title": "Thoughtfully made. Personally yours.",
+        "sub": "Go somewhere. Feel at home.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "Signature rooms",
+            "desc": "Discover our approach to signature rooms. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "heart",
+            "title": "Local experiences",
+            "desc": "Discover our approach to local experiences. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "award",
+            "title": "Private escapes",
+            "desc": "Discover our approach to private escapes. Tell us what you need and we will help you explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "showcase",
+        "kind": "services",
+        "title": "Explore what we do",
+        "sub": "A closer look at the details that make the difference.",
+        "items": [
+          {
+            "title": "Signature rooms",
+            "meta": "01 / The Quiet Stay",
+            "desc": "A personal approach to signature rooms, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Local experiences",
+            "meta": "02 / The Quiet Stay",
+            "desc": "A personal approach to local experiences, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Private escapes",
+            "meta": "03 / The Quiet Stay",
+            "desc": "A personal approach to private escapes, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "title": "A world of inspiration",
+        "images": [
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=85"
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "A few things you might like to know",
+        "items": [
+          {
+            "q": "How do I get started?",
+            "a": "Use the enquiry form and tell us what you have in mind. Our team will help you with the next step."
+          },
+          {
+            "q": "Can I discuss my specific requirements?",
+            "a": "Of course. We take the time to understand your needs and share the options that suit you."
+          },
+          {
+            "q": "Where can I find availability and pricing?",
+            "a": "Please contact us for current availability and a personalised quote."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "headline": "Let's make something worth remembering.",
+        "sub": "Tell us what you have in mind. We'd love to hear from you.",
+        "cta": "Start a conversation",
+        "link": "contact"
+      },
+      {
+        "type": "contact",
+        "title": "Say hello",
+        "sub": "Your next chapter starts with a conversation."
+      }
+    ]
+  }
+}

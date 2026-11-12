@@ -1,0 +1,2 @@
+UPDATE public.templates SET content_json = replace(content_json::text, 'https://cdn.stocksnap.io/', '/api/public/img/stocksnap/')::jsonb WHERE content_json::text LIKE '%cdn.stocksnap.io%';
+UPDATE public.templates SET thumbnail_url = replace(thumbnail_url, 'https://cdn.stocksnap.io/', '/api/public/img/stocksnap/') WHERE thumbnail_url LIKE '%cdn.stocksnap.io%';

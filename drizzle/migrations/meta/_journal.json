@@ -1,0 +1,104 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789677134369,
+      "tag": "0000_service_plans_base_flag",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789677194256,
+      "tag": "0001_builder_session_payment_details",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789677644963,
+      "tag": "0002_upi_email_gateway",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789702911885,
+      "tag": "0003_create_bug_reports",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789831900245,
+      "tag": "0004_upi_imap_auto_fetch",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1789832273012,
+      "tag": "0005_lock_down_public_reads",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1789832465321,
+      "tag": "0006_public_comment_view_and_role_scoping",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1789832551009,
+      "tag": "0007_harden_comments_and_orders",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1789834232875,
+      "tag": "0008_add_site_suspension",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1789959881123,
+      "tag": "0009_create_service_bookings",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1792322685002,
+      "tag": "0010_protect_builder_session_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1792828022347,
+      "tag": "0011_restrict_permissions_and_keywords_reads",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1793180845916,
+      "tag": "0012_add_quarterly_half_yearly_billing_cycles",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1793354848212,
+      "tag": "0013_relay_stock_photos",
+      "breakpoints": true
+    }
+  ]
+}

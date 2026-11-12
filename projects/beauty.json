@@ -1,0 +1,132 @@
+{
+  "format": "sktechlab-project-v1",
+  "name": "Maison Beauty",
+  "exportedAt": "2026-11-11T17:08:56.435Z",
+  "content": {
+    "presentation": "preserve",
+    "archetype": "salon",
+    "brand": {
+      "name": "Maison Beauty",
+      "tagline": "Your moment to feel extraordinary.",
+      "primary": "#9d4b62",
+      "secondary": "#39202d",
+      "accent": "#e5c3af",
+      "layout": "boutique",
+      "theme": "light",
+      "font": "luxe",
+      "nav": "minimal",
+      "density": "airy",
+      "corner": "soft",
+      "motion": "calm",
+      "direction": "Signature collection"
+    },
+    "sections": [
+      {
+        "type": "hero3d",
+        "headline": "A little care. A beautiful transformation.",
+        "sub": "An intimate beauty space with personalised treatments and thoughtful attention. Find the ritual that feels like you.",
+        "cta": "Let's talk",
+        "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1400&q=85",
+        "bullets": [
+          "Made for you",
+          "Thoughtful details",
+          "Personal attention"
+        ],
+        "link": "contact"
+      },
+      {
+        "type": "features",
+        "title": "Thoughtfully made. Personally yours.",
+        "sub": "Your moment to feel extraordinary.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "Hair artistry",
+            "desc": "Discover our approach to hair artistry. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "heart",
+            "title": "Skin rituals",
+            "desc": "Discover our approach to skin rituals. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "award",
+            "title": "Bridal styling",
+            "desc": "Discover our approach to bridal styling. Tell us what you need and we will help you explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "showcase",
+        "kind": "services",
+        "title": "Explore what we do",
+        "sub": "A closer look at the details that make the difference.",
+        "items": [
+          {
+            "title": "Hair artistry",
+            "meta": "01 / Maison Beauty",
+            "desc": "A personal approach to hair artistry, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Skin rituals",
+            "meta": "02 / Maison Beauty",
+            "desc": "A personal approach to skin rituals, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Bridal styling",
+            "meta": "03 / Maison Beauty",
+            "desc": "A personal approach to bridal styling, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "title": "A world of inspiration",
+        "images": [
+          "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1600&q=85"
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "A few things you might like to know",
+        "items": [
+          {
+            "q": "How do I get started?",
+            "a": "Use the enquiry form and tell us what you have in mind. Our team will help you with the next step."
+          },
+          {
+            "q": "Can I discuss my specific requirements?",
+            "a": "Of course. We take the time to understand your needs and share the options that suit you."
+          },
+          {
+            "q": "Where can I find availability and pricing?",
+            "a": "Please contact us for current availability and a personalised quote."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "headline": "Let's make something worth remembering.",
+        "sub": "Tell us what you have in mind. We'd love to hear from you.",
+        "cta": "Start a conversation",
+        "link": "contact"
+      },
+      {
+        "type": "contact",
+        "title": "Say hello",
+        "sub": "Your next chapter starts with a conversation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "sdk_version": "2.0.4",
+  "path": "/mcp",
+  "auth": {
+    "type": "oauth",
+    "issuer": "https://gtanbobxpkatgzrzcvxi.supabase.co/auth/v1",
+    "accepted_audiences": [
+      "authenticated"
+    ]
+  },
+  "mcp": {
+    "server": {
+      "name": "digital-growth-hub",
+      "version": "0.1.0",
+      "title": "Digital Growth Hub"
+    },
+    "tools": [
+      {
+        "name": "list_my_sites",
+        "title": "List my websites",
+        "description": "List the websites owned by the signed-in user, with subdomain and published status.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_site",
+        "title": "Get website details",
+        "description": "Get one of the signed-in user's websites, including its page structure and section titles.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {
+            "site_id": {
+              "type": "string",
+              "description": "The id of the website to read."
+            }
+          },
+          "required": [
+            "site_id"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_site_leads",
+        "title": "List website enquiries",
+        "description": "List contact-form enquiries received by one of the signed-in user's websites, newest first.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {
+            "site_id": {
+              "type": "string",
+              "description": "The id of the website whose enquiries to read."
+            },
+            "limit": {
+              "description": "How many enquiries to return (default 20, max 100).",
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            }
+          },
+          "required": [
+            "site_id"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_my_orders",
+        "title": "List my plan orders",
+        "description": "List the signed-in user's service plan orders and their current status.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "create_support_ticket",
+        "title": "Create a support ticket",
+        "description": "Open a support ticket for the signed-in user. Optionally link it to one of their websites.",
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {
+            "subject": {
+              "type": "string",
+              "description": "Short summary of the request."
+            },
+            "message": {
+              "type": "string",
+              "description": "Full details of the request."
+            },
+            "category": {
+              "description": "Ticket category, e.g. general, billing, technical.",
+              "type": "string"
+            },
+            "site_id": {
+              "description": "Id of the related website, if any.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "subject",
+            "message"
+          ]
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}

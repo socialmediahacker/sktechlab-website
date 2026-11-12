@@ -1,0 +1,132 @@
+{
+  "format": "sktechlab-project-v1",
+  "name": "Everyday Atelier",
+  "exportedAt": "2026-11-11T17:08:56.438Z",
+  "content": {
+    "presentation": "preserve",
+    "archetype": "fashion",
+    "brand": {
+      "name": "Everyday Atelier",
+      "tagline": "Less ordinary. More you.",
+      "primary": "#8b3e30",
+      "secondary": "#30201c",
+      "accent": "#ead9bd",
+      "layout": "prism",
+      "theme": "light",
+      "font": "fashion",
+      "nav": "minimal",
+      "density": "airy",
+      "corner": "soft",
+      "motion": "calm",
+      "direction": "Signature collection"
+    },
+    "sections": [
+      {
+        "type": "hero3d",
+        "headline": "Pieces you'll reach for. Stories you'll wear.",
+        "sub": "Discover thoughtful essentials and expressive pieces in a collection made for real life. Enquire about availability and styling.",
+        "cta": "Let's talk",
+        "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1400&q=85",
+        "bullets": [
+          "Made for you",
+          "Thoughtful details",
+          "Personal attention"
+        ],
+        "link": "contact"
+      },
+      {
+        "type": "features",
+        "title": "Thoughtfully made. Personally yours.",
+        "sub": "Less ordinary. More you.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "New collections",
+            "desc": "Discover our approach to new collections. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "heart",
+            "title": "Personal styling",
+            "desc": "Discover our approach to personal styling. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "award",
+            "title": "Made for everyday",
+            "desc": "Discover our approach to made for everyday. Tell us what you need and we will help you explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "showcase",
+        "kind": "services",
+        "title": "Explore what we do",
+        "sub": "A closer look at the details that make the difference.",
+        "items": [
+          {
+            "title": "New collections",
+            "meta": "01 / Everyday Atelier",
+            "desc": "A personal approach to new collections, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Personal styling",
+            "meta": "02 / Everyday Atelier",
+            "desc": "A personal approach to personal styling, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Made for everyday",
+            "meta": "03 / Everyday Atelier",
+            "desc": "A personal approach to made for everyday, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "title": "A world of inspiration",
+        "images": [
+          "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=85"
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "A few things you might like to know",
+        "items": [
+          {
+            "q": "How do I get started?",
+            "a": "Use the enquiry form and tell us what you have in mind. Our team will help you with the next step."
+          },
+          {
+            "q": "Can I discuss my specific requirements?",
+            "a": "Of course. We take the time to understand your needs and share the options that suit you."
+          },
+          {
+            "q": "Where can I find availability and pricing?",
+            "a": "Please contact us for current availability and a personalised quote."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "headline": "Let's make something worth remembering.",
+        "sub": "Tell us what you have in mind. We'd love to hear from you.",
+        "cta": "Start a conversation",
+        "link": "contact"
+      },
+      {
+        "type": "contact",
+        "title": "Say hello",
+        "sub": "Your next chapter starts with a conversation."
+      }
+    ]
+  }
+}

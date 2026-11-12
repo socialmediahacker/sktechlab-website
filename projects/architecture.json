@@ -1,0 +1,132 @@
+{
+  "format": "sktechlab-project-v1",
+  "name": "Arc & Earth",
+  "exportedAt": "2026-11-11T17:08:56.436Z",
+  "content": {
+    "presentation": "preserve",
+    "archetype": "interior",
+    "brand": {
+      "name": "Arc & Earth",
+      "tagline": "Spaces with soul. Design with purpose.",
+      "primary": "#52634b",
+      "secondary": "#20271e",
+      "accent": "#cbb896",
+      "layout": "editorial",
+      "theme": "light",
+      "font": "humanist",
+      "nav": "minimal",
+      "density": "airy",
+      "corner": "soft",
+      "motion": "calm",
+      "direction": "Signature collection"
+    },
+    "sections": [
+      {
+        "type": "hero3d",
+        "headline": "Considered spaces for the way you live.",
+        "sub": "We bring natural materials, quiet details and your everyday life together in spaces that feel entirely your own.",
+        "cta": "Let's talk",
+        "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+        "bullets": [
+          "Made for you",
+          "Thoughtful details",
+          "Personal attention"
+        ],
+        "link": "contact"
+      },
+      {
+        "type": "features",
+        "title": "Thoughtfully made. Personally yours.",
+        "sub": "Spaces with soul. Design with purpose.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "Residential interiors",
+            "desc": "Discover our approach to residential interiors. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "heart",
+            "title": "Commercial spaces",
+            "desc": "Discover our approach to commercial spaces. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "award",
+            "title": "Design consultancy",
+            "desc": "Discover our approach to design consultancy. Tell us what you need and we will help you explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "showcase",
+        "kind": "services",
+        "title": "Explore what we do",
+        "sub": "A closer look at the details that make the difference.",
+        "items": [
+          {
+            "title": "Residential interiors",
+            "meta": "01 / Arc & Earth",
+            "desc": "A personal approach to residential interiors, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Commercial spaces",
+            "meta": "02 / Arc & Earth",
+            "desc": "A personal approach to commercial spaces, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Design consultancy",
+            "meta": "03 / Arc & Earth",
+            "desc": "A personal approach to design consultancy, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "title": "A world of inspiration",
+        "images": [
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1600&q=85"
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "A few things you might like to know",
+        "items": [
+          {
+            "q": "How do I get started?",
+            "a": "Use the enquiry form and tell us what you have in mind. Our team will help you with the next step."
+          },
+          {
+            "q": "Can I discuss my specific requirements?",
+            "a": "Of course. We take the time to understand your needs and share the options that suit you."
+          },
+          {
+            "q": "Where can I find availability and pricing?",
+            "a": "Please contact us for current availability and a personalised quote."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "headline": "Let's make something worth remembering.",
+        "sub": "Tell us what you have in mind. We'd love to hear from you.",
+        "cta": "Start a conversation",
+        "link": "contact"
+      },
+      {
+        "type": "contact",
+        "title": "Say hello",
+        "sub": "Your next chapter starts with a conversation."
+      }
+    ]
+  }
+}

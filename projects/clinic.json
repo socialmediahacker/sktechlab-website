@@ -1,0 +1,132 @@
+{
+  "format": "sktechlab-project-v1",
+  "name": "Bloom Care",
+  "exportedAt": "2026-11-11T17:08:56.437Z",
+  "content": {
+    "presentation": "preserve",
+    "archetype": "clinic",
+    "brand": {
+      "name": "Bloom Care",
+      "tagline": "Thoughtful care for every chapter.",
+      "primary": "#087e8b",
+      "secondary": "#12383d",
+      "accent": "#d6f3e9",
+      "layout": "bento",
+      "theme": "light",
+      "font": "minimal",
+      "nav": "minimal",
+      "density": "airy",
+      "corner": "soft",
+      "motion": "calm",
+      "direction": "Signature collection"
+    },
+    "sections": [
+      {
+        "type": "hero3d",
+        "headline": "Your health. Our time and attention.",
+        "sub": "Clear conversations, personalised appointments and care built around you. Get in touch to find the right next step.",
+        "cta": "Let's talk",
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=85",
+        "bullets": [
+          "Made for you",
+          "Thoughtful details",
+          "Personal attention"
+        ],
+        "link": "contact"
+      },
+      {
+        "type": "features",
+        "title": "Thoughtfully made. Personally yours.",
+        "sub": "Thoughtful care for every chapter.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "General consultations",
+            "desc": "Discover our approach to general consultations. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "heart",
+            "title": "Preventive care",
+            "desc": "Discover our approach to preventive care. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "award",
+            "title": "Family wellness",
+            "desc": "Discover our approach to family wellness. Tell us what you need and we will help you explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "showcase",
+        "kind": "services",
+        "title": "Explore what we do",
+        "sub": "A closer look at the details that make the difference.",
+        "items": [
+          {
+            "title": "General consultations",
+            "meta": "01 / Bloom Care",
+            "desc": "A personal approach to general consultations, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Preventive care",
+            "meta": "02 / Bloom Care",
+            "desc": "A personal approach to preventive care, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Family wellness",
+            "meta": "03 / Bloom Care",
+            "desc": "A personal approach to family wellness, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "title": "A world of inspiration",
+        "images": [
+          "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1600&q=85"
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "A few things you might like to know",
+        "items": [
+          {
+            "q": "How do I get started?",
+            "a": "Use the enquiry form and tell us what you have in mind. Our team will help you with the next step."
+          },
+          {
+            "q": "Can I discuss my specific requirements?",
+            "a": "Of course. We take the time to understand your needs and share the options that suit you."
+          },
+          {
+            "q": "Where can I find availability and pricing?",
+            "a": "Please contact us for current availability and a personalised quote."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "headline": "Let's make something worth remembering.",
+        "sub": "Tell us what you have in mind. We'd love to hear from you.",
+        "cta": "Start a conversation",
+        "link": "contact"
+      },
+      {
+        "type": "contact",
+        "title": "Say hello",
+        "sub": "Your next chapter starts with a conversation."
+      }
+    ]
+  }
+}

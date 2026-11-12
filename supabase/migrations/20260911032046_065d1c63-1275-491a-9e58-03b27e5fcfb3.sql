@@ -1,0 +1,1 @@
+ALTER TABLE public.builder_sessions ADD COLUMN IF NOT EXISTS category_slug text;

@@ -1,0 +1,96 @@
+SKTECHLAB — GITHUB UPLOAD AUR BAAD KA SETUP
+
+1. GitHub Desktop mein socialmediahacker/sktechlab-website clone karo.
+2. Is ZIP ko extract karo. Andar ki saari files/folders cloned repository
+   mein copy karo. package.json, src aur public seedhe repo root mein hon.
+   ZIP file ko upload mat karo; extracted source upload karo.
+3. GitHub Desktop: Changes check > Commit > Push origin / Publish branch.
+   Agar repo ab bhi empty hai toh Clone ka empty-repository message normal hai.
+   Cloned folder ka .git folder delete mat karo.
+
+IS PACKAGE MEIN
+- Final source ka application code aur design preserve kiya gaya hai.
+- Original .env remove ki hai. .env.example mein sirf blank variable names hain.
+- .gitignore mein environment/credential exclusions add kiye hain.
+- Source upload se app deploy ya existing database migrate nahi hota.
+
+BAAD MEIN KYA ADD KARNA HAI
+
+A. SUPABASE (existing project)
+- Existing project URL aur publishable key lo. Naya database zaroori nahi.
+- Frontend build variables:
+  VITE_SUPABASE_URL
+  VITE_SUPABASE_PUBLISHABLE_KEY
+- Server runtime variables:
+  SUPABASE_URL
+  SUPABASE_PUBLISHABLE_KEY
+  SUPABASE_SERVICE_ROLE_KEY (private secret; VITE_ mein kabhi nahi)
+- Database backup aur staging verification ke baad pending migration:
+  supabase/migrations/20261112080000_domain_shop_checkout.sql
+  Ye existing migrations ke baad hai. Pehle apply ho chuki ho toh dobara nahi.
+  Bilkul naya database ho toh sirf ye migration enough nahi hai.
+- Existing storage buckets, uploads aur database data ZIP ka backup nahi hain.
+
+B. CLOUDFLARE WORKERS
+- GitHub repository connect karo aur compatible server build configure/test karo.
+- Existing vite.config.ts Lovable/TanStack/Nitro configuration use karta hai.
+  Adapter plugins blindly add mat karo. Generated Worker entry aur Wrangler
+  configuration first successful build ke output se verify karni hai.
+- Build variables aur runtime secrets dono alag configure karne honge.
+- Ye ZIP Cloudflare-deployed/verified package nahi hai. Full build, browser login,
+  payment aur domain buying verification pending hai.
+- Temporary URL par login, admin, templates, editor, shop test karo.
+- Phir custom domain connect karo. Supabase Site URL aur actual auth/reset
+  callback URLs allow karo. Testing ke waqt existing URLs retain karo.
+
+C. BUSINESS DETAILS (public build variables; set karke rebuild)
+VITE_BUSINESS_LEGAL_NAME
+VITE_BUSINESS_ADDRESS
+VITE_BUSINESS_SUPPORT_EMAIL
+VITE_BUSINESS_PHONE
+Asli matching business details bharo; policy timelines review karo.
+
+D. RAZORPAY (payment test karne ke liye server secrets)
+RAZORPAY_KEY_ID
+RAZORPAY_KEY_SECRET
+RAZORPAY_WEBHOOK_SECRET
+Pehle test-mode keys use karo. Admin mein gateway enable karo.
+Webhook: https://YOUR-DOMAIN/api/public/platform-payments
+Event: payment.captured
+Webhook secret ko same runtime secret se match karo.
+Live mode actual account activation aur end-to-end verification ke baad.
+
+E. DOMAIN SELLING (optional; initially OFF)
+RESELLERCLUB_RESELLER_ID
+RESELLERCLUB_API_KEY
+DOMAIN_WORKER_SECRET (independent long random value)
+Reseller account, funded balance, API IP allowlist aur TLD pricing mapping chahiye.
+Cloudflare se registrar IP access verify karo; fixed egress requirement ka solution
+bina domain buying enable mat karo.
+Admin > Domain sales & DNS mein costs/currency, nameservers, agreement configure karo.
+Private scheduler ko POST /api/public/platform-payments call karna hai,
+x-domain-worker-secret header ke saath. Existing app HTTP route ke liye actual
+scheduled handler/scheduler banana hoga; sirf cron timing set karna enough nahi.
+Registration se DNS zone/hosting records automatically complete nahi hote.
+Detail: README-DOMAINS-SHOP.md.
+
+F. AI (optional)
+Current source GEMINI_API_KEY / LOVABLE_API_KEY paths use karta hai.
+OpenAI API integration aur complete autonomous AI Co-CEO abhi implemented nahi.
+Sirf OPENAI_API_KEY add karne se OpenAI activate nahi hoga.
+AI keys server secrets mein rakho. Existing AI/admin routing ko verify karke enable karo.
+
+G. OPTIONAL SERVICES
+WhatsApp/OTP ke liye source ke corresponding provider credentials chahiye.
+PEXELS_API_KEY optional image-search feature ke liye hai.
+Sab optional providers ko bina zaroorat configure karna required nahi hai.
+
+LOCAL DEVELOPMENT
+.env.example ko .env naam se copy karke required values fill kar sakte ho.
+.env GitHub par commit mat karo. Hosting par UI/environment secrets use karo.
+Original .env ki copy original ZIP mein hai; us ZIP ko private rakho.
+
+SOURCE VALIDATION
+Application code final source ke same hai; ye packaging-only update hai.
+Previous test results deployment certification nahi hain. Build aur live services
+ko hosting setup ke waqt separately verify karna hoga.

@@ -1,0 +1,132 @@
+{
+  "format": "sktechlab-project-v1",
+  "name": "Built Different",
+  "exportedAt": "2026-11-11T17:08:56.437Z",
+  "content": {
+    "presentation": "preserve",
+    "archetype": "gym",
+    "brand": {
+      "name": "Built Different",
+      "tagline": "Show up. Find your strength.",
+      "primary": "#b5e33d",
+      "secondary": "#141b13",
+      "accent": "#f9faf7",
+      "layout": "brutal",
+      "theme": "dark",
+      "font": "display",
+      "nav": "minimal",
+      "density": "airy",
+      "corner": "soft",
+      "motion": "cinematic",
+      "direction": "Signature collection"
+    },
+    "sections": [
+      {
+        "type": "hero3d",
+        "headline": "Stronger starts with your first step.",
+        "sub": "Purposeful training, supportive coaching and a community that keeps you moving. Make progress at your own pace.",
+        "cta": "Let's talk",
+        "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=85",
+        "bullets": [
+          "Made for you",
+          "Thoughtful details",
+          "Personal attention"
+        ],
+        "link": "contact"
+      },
+      {
+        "type": "features",
+        "title": "Thoughtfully made. Personally yours.",
+        "sub": "Show up. Find your strength.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "Personal coaching",
+            "desc": "Discover our approach to personal coaching. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "heart",
+            "title": "Strength training",
+            "desc": "Discover our approach to strength training. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "award",
+            "title": "Small-group classes",
+            "desc": "Discover our approach to small-group classes. Tell us what you need and we will help you explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "showcase",
+        "kind": "services",
+        "title": "Explore what we do",
+        "sub": "A closer look at the details that make the difference.",
+        "items": [
+          {
+            "title": "Personal coaching",
+            "meta": "01 / Built Different",
+            "desc": "A personal approach to personal coaching, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Strength training",
+            "meta": "02 / Built Different",
+            "desc": "A personal approach to strength training, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Small-group classes",
+            "meta": "03 / Built Different",
+            "desc": "A personal approach to small-group classes, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "title": "A world of inspiration",
+        "images": [
+          "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=85"
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "A few things you might like to know",
+        "items": [
+          {
+            "q": "How do I get started?",
+            "a": "Use the enquiry form and tell us what you have in mind. Our team will help you with the next step."
+          },
+          {
+            "q": "Can I discuss my specific requirements?",
+            "a": "Of course. We take the time to understand your needs and share the options that suit you."
+          },
+          {
+            "q": "Where can I find availability and pricing?",
+            "a": "Please contact us for current availability and a personalised quote."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "headline": "Let's make something worth remembering.",
+        "sub": "Tell us what you have in mind. We'd love to hear from you.",
+        "cta": "Start a conversation",
+        "link": "contact"
+      },
+      {
+        "type": "contact",
+        "title": "Say hello",
+        "sub": "Your next chapter starts with a conversation."
+      }
+    ]
+  }
+}

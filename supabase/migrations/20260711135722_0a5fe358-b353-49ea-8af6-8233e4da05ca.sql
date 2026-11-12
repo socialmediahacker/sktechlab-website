@@ -1,0 +1,1 @@
+ALTER TABLE public.templates ADD COLUMN IF NOT EXISTS demo_url text;

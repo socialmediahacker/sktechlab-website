@@ -1,0 +1,132 @@
+{
+  "format": "sktechlab-project-v1",
+  "name": "Forma Studio",
+  "exportedAt": "2026-11-11T17:08:56.432Z",
+  "content": {
+    "presentation": "preserve",
+    "archetype": "agency",
+    "brand": {
+      "name": "Forma Studio",
+      "tagline": "Independent minds. Extraordinary digital experiences.",
+      "primary": "#6d28d9",
+      "secondary": "#17132b",
+      "accent": "#d6f56b",
+      "layout": "editorial",
+      "theme": "light",
+      "font": "grotesk",
+      "nav": "minimal",
+      "density": "airy",
+      "corner": "soft",
+      "motion": "calm",
+      "direction": "Signature collection"
+    },
+    "sections": [
+      {
+        "type": "hero3d",
+        "headline": "Your next chapter deserves a remarkable website.",
+        "sub": "A considered digital studio for ambitious businesses. Beautiful design, thoughtful strategy and websites made to move you forward.",
+        "cta": "Let's talk",
+        "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1400&q=85",
+        "bullets": [
+          "Made for you",
+          "Thoughtful details",
+          "Personal attention"
+        ],
+        "link": "contact"
+      },
+      {
+        "type": "features",
+        "title": "Thoughtfully made. Personally yours.",
+        "sub": "Independent minds. Extraordinary digital experiences.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "Brand strategy",
+            "desc": "Discover our approach to brand strategy. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "heart",
+            "title": "Web experiences",
+            "desc": "Discover our approach to web experiences. Tell us what you need and we will help you explore the possibilities."
+          },
+          {
+            "icon": "award",
+            "title": "Digital growth",
+            "desc": "Discover our approach to digital growth. Tell us what you need and we will help you explore the possibilities."
+          }
+        ]
+      },
+      {
+        "type": "showcase",
+        "kind": "services",
+        "title": "Explore what we do",
+        "sub": "A closer look at the details that make the difference.",
+        "items": [
+          {
+            "title": "Brand strategy",
+            "meta": "01 / Forma Studio",
+            "desc": "A personal approach to brand strategy, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Web experiences",
+            "meta": "02 / Forma Studio",
+            "desc": "A personal approach to web experiences, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          },
+          {
+            "title": "Digital growth",
+            "meta": "03 / Forma Studio",
+            "desc": "A personal approach to digital growth, designed around your needs.",
+            "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=85",
+            "cta": "Find out more",
+            "link": "contact"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "title": "A world of inspiration",
+        "images": [
+          "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1600&q=85",
+          "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1600&q=85"
+        ]
+      },
+      {
+        "type": "faq",
+        "title": "A few things you might like to know",
+        "items": [
+          {
+            "q": "How do I get started?",
+            "a": "Use the enquiry form and tell us what you have in mind. Our team will help you with the next step."
+          },
+          {
+            "q": "Can I discuss my specific requirements?",
+            "a": "Of course. We take the time to understand your needs and share the options that suit you."
+          },
+          {
+            "q": "Where can I find availability and pricing?",
+            "a": "Please contact us for current availability and a personalised quote."
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "headline": "Let's make something worth remembering.",
+        "sub": "Tell us what you have in mind. We'd love to hear from you.",
+        "cta": "Start a conversation",
+        "link": "contact"
+      },
+      {
+        "type": "contact",
+        "title": "Say hello",
+        "sub": "Your next chapter starts with a conversation."
+      }
+    ]
+  }
+}
